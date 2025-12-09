@@ -1,0 +1,30 @@
+# --- Python & Runtime ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments (Common names) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Simulation Outputs & Data ---
+# Ignore the specific output file from main.py
+simpurenoise0.txt
+# Ignore any other text or csv files if you generate more later
+*.csv
+*.dat
+
+# --- IDE & Editor Settings (Optional but recommended) ---
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter Notebook Checkpoints (If you have any lying around) ---
+.ipynb_checkpoints/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
