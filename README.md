@@ -2,7 +2,7 @@
 
 This repository contains the Python code and data generation scripts associated with the paper **"Distribution of singular values in large sample cross-covariance matrices"** by Arabind Swain, Sean Alexander Ridout, and Ilya Nemenman, published in Physical Review E (2025).
 ## 📄 Abstract
-Estimating the cross-covariance between two high-dimensional datasets ($X$ and $Y$) is a fundamental problem in data science. When the number of samples $T$ is comparable to the dimensions $N_X$​ and $N_Y$​, sampling fluctuations introduce significant noise, creating spurious correlations even when $X$ and $Y$ are independent.
+Estimating the cross-covariance between two high-dimensional datasets ($X$ and $Y$) is a fundamental problem in data science. When the number of samples $T$ is comparable to the dimensions $N_X$​ and $N_Y$​, sampling fluctuations introduce significant noise, creating spurious correlations even when $X$ and $Y$ are independent. We describe the **Marchenko-Pastur law** equivalent here for cross-covariance matrices.  
 
 This project implements the Random Matrix Theory (RMT) analytical framework derived in the paper to characterize these fluctuations. It provides tools to:
 1. **Simulate** large sample cross-covariance matrices ($C=\frac{1}{T}\tilde{Y}^T \tilde{X}$). Here $\tilde{X}$ and $\tilde{Y}$ are row normalized $X$ and $Y$ respectively.
